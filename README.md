@@ -1,1 +1,3 @@
-netlify link of code editor project : https://code-editor-by-rahul.netlify.app/
+I have made a clone of Code Pen using React and named code editor.
+
+Here is the link : https://code-editor-by-rahul.netlify.app/
