@@ -2,24 +2,27 @@ import { useState } from "react";
 import { useEffect } from "react";
 import React from "react";
 import Editors from "./Editors";
+import useLocalStorage from "../hooks/useLocalStorage";
 
 function App() {
-  const [html, setHtml]=useState('')
-  const [css, setCss]=useState('')
-  const [js, setJs]=useState('')
+  const [html, setHtml]=useLocalStorage('html','')
+  const [css, setCss]=useLocalStorage('css','')
+  const [js, setJs]=useLocalStorage('js','')
   const [srcDoc, setSrcDoc]=useState('')
 
   useEffect(()=>{
-    consst Timeout=setTimeout(()=>{
-      setSrcDoc=`
+    const timeout=setTimeout(()=>{
+      setSrcDoc(`
       <html>
       <body>${html}</body>
       <style>${css}</style>
       <script>${js}</script>
       </html>
-      `
-    })
-  })
+      `)
+    }, 250)
+
+    return()=> clearTimeout(timeout)
+  }, [html,css,js])
 
   return (
     <>
