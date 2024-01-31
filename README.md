@@ -1,4 +1,6 @@
-Code Editor
+Code Vista
+
+Code Vista is an online social development environment that allows web developers to create, share, and explore front-end code snippets, often involving HTML, CSS, and JavaScript.
 
 
 A simple CodePen clone built with React.
