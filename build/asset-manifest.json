@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.32251221.css",
-    "main.js": "/static/js/main.db911e2a.js",
-    "index.html": "/index.html",
-    "main.32251221.css.map": "/static/css/main.32251221.css.map",
-    "main.db911e2a.js.map": "/static/js/main.db911e2a.js.map"
+    "main.css": "/rahulsrivastavaa/code-vistaa/static/css/main.32251221.css",
+    "main.js": "/rahulsrivastavaa/code-vistaa/static/js/main.db911e2a.js",
+    "index.html": "/rahulsrivastavaa/code-vistaa/index.html",
+    "main.32251221.css.map": "/rahulsrivastavaa/code-vistaa/static/css/main.32251221.css.map",
+    "main.db911e2a.js.map": "/rahulsrivastavaa/code-vistaa/static/js/main.db911e2a.js.map"
   },
   "entrypoints": [
     "static/css/main.32251221.css",
